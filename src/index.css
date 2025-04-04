@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 30% 98%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 170 80% 30%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 40 24% 90%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 50 90% 85%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    /* ... keep existing code */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply w-full max-w-[1400px] mx-auto px-4 md:px-8;
+  }
+  
+  .nav-link {
+    @apply relative font-medium text-softBlack opacity-80 hover:opacity-100 transition-all duration-300
+    after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 after:bg-current 
+    after:transition-all after:duration-300 hover:after:w-full;
+  }
+
+  .button-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-md shadow-soft
+    transition-all duration-300 hover:shadow-medium;
+  }
+  
+  .button-secondary {
+    @apply bg-secondary text-softBlack px-6 py-3 rounded-md shadow-soft
+    transition-all duration-300 hover:shadow-medium;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .product-card {
+    @apply bg-white rounded-xl overflow-hidden shadow-soft transition-all 
+    duration-300 hover:shadow-medium hover:-translate-y-1;
+  }
+  
+  .glass-panel {
+    @apply backdrop-blur-sm bg-white/70 shadow-soft;
+  }
+  
+  .headline {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-softBlack leading-tight;
+  }
+  
+  .subheadline {
+    @apply font-serif text-2xl md:text-3xl lg:text-4xl font-semibold text-softBlack leading-normal;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+  
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
