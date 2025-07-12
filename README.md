@@ -6,7 +6,7 @@ A modern e-commerce platform for Adejola & Sons Enterprise, showcasing their pre
 
 Adejola & Sons Enterprise specializes in distributing premium artisanal ice cream. Our web platform provides a seamless shopping experience for customers to explore and purchase our delicious ice cream products. 🛍️
 
-## 🔗 [Live Demo](https://adejola-global-giant.netlify.app/)
+
 
 ## ⭐ Features
 
@@ -92,9 +92,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. 🎉
 4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
 5. 🎯 Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details. ⚖️
 
 ## 👨‍💻 Author
 
