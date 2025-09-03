@@ -39,7 +39,8 @@ Adejola & Sons Enterprise specializes in distributing premium artisanal ice crea
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[your-username]/adejola-ice-cream
+git clone https://github.com/Ayokanmi-Adejola/Ecommerce
+cd Ecommerce
 ```
 
 2. Install dependencies:
@@ -93,3 +94,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. 🎉
 3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
 5. 🎯 Open a Pull Request
+
