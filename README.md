@@ -2,6 +2,8 @@
 
 A modern e-commerce platform for Adejola & Sons Enterprise, showcasing their premium artisanal ice cream products.
 
+<img width="1920" height="4678" alt="image" src="https://github.com/user-attachments/assets/eb0b16ce-1283-4e7d-b8fc-cd901ad41041" />
+
 ## 🍦 About
 
 Adejola & Sons Enterprise specializes in distributing premium artisanal ice cream. Our web platform provides a seamless shopping experience for customers to explore and purchase our delicious ice cream products. 🛍️
@@ -100,3 +102,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. 🎉
 
 - Portfolio: [https://ayokanmi-adejola-portfolio.netlify.app/]
 - LinkedIn: [https://www.linkedin.com/in/ayokanmiadejola/]
+
